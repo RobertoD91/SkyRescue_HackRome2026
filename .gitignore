@@ -1,0 +1,13 @@
+.DS_Store
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.p8
+.env
+.env.*
+.secrets/
+secrets/
+.swiftpm/

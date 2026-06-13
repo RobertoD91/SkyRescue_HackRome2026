@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		369EBDD2573422D610C56ABB /* SkyRescueModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B7DC26A27D3CB3276EA0CB /* SkyRescueModels.swift */; };
+		82B6FD9E7632C7AC41F7B611 /* MeshtasticBLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEBD18E03CDF661AC88DD7A /* MeshtasticBLEManager.swift */; };
+		9F4B7253B4E10724DF339178 /* MeshtasticProtobufs in Frameworks */ = {isa = PBXBuildFile; productRef = 63244AF1A2C7574B6EC3EE36 /* MeshtasticProtobufs */; };
+		A016A49B9EDDC64686569EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD540D1E150AA9406348BC65 /* Assets.xcassets */; };
+		C4270A53C34833F19629D324 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A337B1CC4422A1F2181C41B /* Foundation.framework */; };
+		D24775FB94081A23AAB29FEA /* SkyRescueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9265D47390C66136137BF /* SkyRescueApp.swift */; };
+		FB776517D835B5E74CC6C049 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3BBF4C477AFD04C5F99797 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28873E31A8D5EEEFC17D28F0 /* SkyRescue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyRescue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A337B1CC4422A1F2181C41B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		84B7DC26A27D3CB3276EA0CB /* SkyRescueModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyRescueModels.swift; path = Sources/SkyRescueModels.swift; sourceTree = "<group>"; };
+		94E9265D47390C66136137BF /* SkyRescueApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyRescueApp.swift; path = Sources/SkyRescueApp.swift; sourceTree = "<group>"; };
+		BE3BBF4C477AFD04C5F99797 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Sources/ContentView.swift; sourceTree = "<group>"; };
+		DCEBD18E03CDF661AC88DD7A /* MeshtasticBLEManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MeshtasticBLEManager.swift; path = Sources/MeshtasticBLEManager.swift; sourceTree = "<group>"; };
+		DD540D1E150AA9406348BC65 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3051D76D860EA08F4A15D1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4270A53C34833F19629D324 /* Foundation.framework in Frameworks */,
+				9F4B7253B4E10724DF339178 /* MeshtasticProtobufs in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6330D9BCCD6E47D541800977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28873E31A8D5EEEFC17D28F0 /* SkyRescue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68F7F7F84C86DBFEB75B7764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA9AF6299E67F54CF8E2D45F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ABACF7A625E497D0D70313B /* SkyRescue */ = {
+			isa = PBXGroup;
+			children = (
+				94E9265D47390C66136137BF /* SkyRescueApp.swift */,
+				84B7DC26A27D3CB3276EA0CB /* SkyRescueModels.swift */,
+				DCEBD18E03CDF661AC88DD7A /* MeshtasticBLEManager.swift */,
+				BE3BBF4C477AFD04C5F99797 /* ContentView.swift */,
+				865EB3010F08BE4FC1A8FFEC /* Resources */,
+			);
+			name = SkyRescue;
+			path = SkyRescue;
+			sourceTree = "<group>";
+		};
+		865EB3010F08BE4FC1A8FFEC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD540D1E150AA9406348BC65 /* Assets.xcassets */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A827CEA69EA755D2079AF8F7 = {
+			isa = PBXGroup;
+			children = (
+				6330D9BCCD6E47D541800977 /* Products */,
+				68F7F7F84C86DBFEB75B7764 /* Frameworks */,
+				6ABACF7A625E497D0D70313B /* SkyRescue */,
+			);
+			sourceTree = "<group>";
+		};
+		CA9AF6299E67F54CF8E2D45F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6A337B1CC4422A1F2181C41B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		232FF5325E2CCE8B3C4A316E /* SkyRescue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55E24104673FFA1D39E7C29 /* Build configuration list for PBXNativeTarget "SkyRescue" */;
+			buildPhases = (
+				9646E15674F49D4182E185CC /* Sources */,
+				3051D76D860EA08F4A15D1B3 /* Frameworks */,
+				6DB4C9ECC49CABD247793E42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyRescue;
+			packageProductDependencies = (
+				63244AF1A2C7574B6EC3EE36 /* MeshtasticProtobufs */,
+			);
+			productName = SkyRescue;
+			productReference = 28873E31A8D5EEEFC17D28F0 /* SkyRescue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD788726B6AF306EA66E3F10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+			};
+			buildConfigurationList = B4F4083D199B00C974B72640 /* Build configuration list for PBXProject "SkyRescue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A827CEA69EA755D2079AF8F7;
+			minimizedProjectReferenceProxies = 0;
+			packageReferences = (
+				F1E43D546CA071718EC8B731 /* XCLocalSwiftPackageReference "MeshtasticProtobufs" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6330D9BCCD6E47D541800977 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				232FF5325E2CCE8B3C4A316E /* SkyRescue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DB4C9ECC49CABD247793E42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A016A49B9EDDC64686569EB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9646E15674F49D4182E185CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24775FB94081A23AAB29FEA /* SkyRescueApp.swift in Sources */,
+				369EBDD2573422D610C56ABB /* SkyRescueModels.swift in Sources */,
+				82B6FD9E7632C7AC41F7B611 /* MeshtasticBLEManager.swift in Sources */,
+				FB776517D835B5E74CC6C049 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		60EBA83E7FEB5F2F16347B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		65F3EDEF51A99560D06EA710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 249XB6ST4P;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SkyRescue/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.skyrescue.app;
+				PRODUCT_NAME = SkyRescue;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76C94262E72505BA8019FBC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 249XB6ST4P;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SkyRescue/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = it.skyrescue.app;
+				PRODUCT_NAME = SkyRescue;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99BCBE27A1FB36A31497E61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4F4083D199B00C974B72640 /* Build configuration list for PBXProject "SkyRescue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99BCBE27A1FB36A31497E61D /* Debug */,
+				60EBA83E7FEB5F2F16347B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55E24104673FFA1D39E7C29 /* Build configuration list for PBXNativeTarget "SkyRescue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C94262E72505BA8019FBC5 /* Release */,
+				65F3EDEF51A99560D06EA710 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F1E43D546CA071718EC8B731 /* XCLocalSwiftPackageReference "MeshtasticProtobufs" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MeshtasticProtobufs;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		63244AF1A2C7574B6EC3EE36 /* MeshtasticProtobufs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1E43D546CA071718EC8B731 /* XCLocalSwiftPackageReference "MeshtasticProtobufs" */;
+			productName = MeshtasticProtobufs;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD788726B6AF306EA66E3F10 /* Project object */;
+}
